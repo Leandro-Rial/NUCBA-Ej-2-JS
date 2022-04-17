@@ -74,7 +74,7 @@ const arrayDePizzas = (array) => {
     console.log(`Los pizzas que tiene id impares son ${odd.join(", ")}`);
     console.log(`Los pizzas que valen menos de $600 son ${cheap.join(", ")}`);
     console.log(`Los nombres de todas las pizzas son ${names.join(", ")}`);
-    console.log(`Los precios de todas las pizzas son $${prices.join(", ")}`);
+    console.log(`Los precios de todas las pizzas son $${prices.join(", $")}`);
     console.log(pizzaNameAndPrice)
 }
 
