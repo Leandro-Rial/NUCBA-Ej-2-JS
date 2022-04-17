@@ -69,7 +69,7 @@ const arrayDePizzas = (array) => {
     }
 
     pizzaNameAndPrice = nameAndPrice.map(({name, price}) =>
-    `La pizza ${name} tiene un precio $${price}`).join('\r\n');
+    `La pizza ${name} tiene un valor de $${price}`).join('\r\n');
     
     console.log(`Los pizzas que tiene id impares son ${odd.join(", ")}`);
     console.log(`Los pizzas que valen menos de $600 son ${cheap.join(", ")}`);
