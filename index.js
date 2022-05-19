@@ -1,46 +1,41 @@
-const Muzzarella = {
-    id: 1,
-    name: "Muzzarella",
-    ingredients: ["tomate", "queso muzzarella"],
-    price: 550
-}
-
-const JamonYMorrones = {
-    id: 2,
-    name: "Jamon y morrones",
-    ingredients: ["tomate", "queso muzzarella", "jamon", "morron"],
-    price: 650
-}
-
-const Fugazzeta = {
-    id: 3,
-    name: "Fugazzeta",
-    ingredients: ["tomate", "queso muzzarella", "cebolla", "queso parmesano", "queso port salut"],
-    price: 700
-}
-
-const Napolitana = {
-    id: 4,
-    name: "Napolitana",
-    ingredients: ["tomate", "queso muzzarella", "aceitunas", "oregano"],
-    price: 850
-}
-
-const CuatroQuesos = {
-    id: 5,
-    name: "Cuatro quesos",
-    ingredients: ["tomate", "queso Muzzarella", "queso Fontina", "queso Parmigiano Reggiano", "queso Gorgonzola"],
-    price: 850
-}
-
-const Margarita = {
-    id: 6,
-    name: "Margarita",
-    ingredients: ["tomate", "queso Muzzarella", "albahaca"],
-    price: 600
-}
-
-const Pizzas = [Muzzarella, JamonYMorrones, Fugazzeta, Napolitana, CuatroQuesos, Margarita];
+const Pizzas = [
+    {
+        id: 1,
+        name: "Muzzarella",
+        ingredients: ["tomate", "queso muzzarella"],
+        price: 550
+    },
+    {
+        id: 2,
+        name: "Jamon y morrones",
+        ingredients: ["tomate", "queso muzzarella", "jamon", "morron"],
+        price: 650
+    },
+    {
+        id: 3,
+        name: "Fugazzeta",
+        ingredients: ["tomate", "queso muzzarella", "cebolla", "queso parmesano", "queso port salut"],
+        price: 700
+    },
+    {
+        id: 4,
+        name: "Napolitana",
+        ingredients: ["tomate", "queso muzzarella", "aceitunas", "oregano"],
+        price: 850
+    },
+    {
+        id: 5,
+        name: "Cuatro quesos",
+        ingredients: ["tomate", "queso Muzzarella", "queso Fontina", "queso Parmigiano Reggiano", "queso Gorgonzola"],
+        price: 850
+    },
+    {
+        id: 6,
+        name: "Margarita",
+        ingredients: ["tomate", "queso Muzzarella", "albahaca"],
+        price: 600
+    }
+];
 
 let odd = []
 let cheap = []
