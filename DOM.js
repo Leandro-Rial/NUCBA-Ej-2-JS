@@ -16,6 +16,8 @@ const submit = () => {
 
         if (!pizzaArr.length) {
             alert("Sorry, but we couldn't find your pizza")
+            document.querySelector('h2').textContent = "";
+            document.querySelector('h4').textContent = "";
         } else {
             document.querySelector('h2').textContent = `${pizzaArr[0].name}`;
             document.querySelector('h4').textContent = `${pizzaArr[0].price}`;
