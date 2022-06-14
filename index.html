@@ -4,13 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Ejercicio2</title>
 </head>
 <body>
-    <h2></h2>
-    <h4></h4>
-    <input type="number" name="number" id="number" placeholder="Complete the field" >
-    <button type="submit" id="submit" onclick="submit()">Send</button>
+    <div class="container">
+        <div class="pizza-card--wrapper" id="card">
+            <div>
+                <h2 id="title"></h2>
+                <h4 id="subtitle"></h4>
+            </div>
+            <!-- <div class="pizza-card--content">
+                <div class="card__picture">
+                    <img src="" alt="">
+                </div>
+                <main class="card__main">
+                    <p class="main--p"></p>
+                    <div class="main--texts">
+                        <span class="main--span"></span>
+                        <strong class="main--strong"></strong>
+                    </div>
+                </main>
+            </div> -->
+        </div>
+        <form id="form">
+            <div class="form--content">
+                <div class="input-group">
+                    <label for="number" class="label">Search the pizza you want. (Only numbers)</label>
+                    <input type="number" name="number" id="input" placeholder="Complete the field" class="input" >
+                </div>
+                <button type="submit" class="button">Send</button>
+            </div>
+            <div id="msg"></div>
+        </form>
+    </div>
 
     <script src="index.js"></script>
     <script src="DOM.js"></script>
